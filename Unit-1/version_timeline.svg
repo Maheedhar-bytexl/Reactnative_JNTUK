@@ -1,0 +1,13 @@
+<svg width="680" height="220" viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+<rect width="680" height="220" fill="#ffffff"/>
+<text x="340" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e1e1e">Mobile Generations at a Glance</text>
+<line x1="60" y1="110" x2="620" y2="110" stroke="#adb5bd" stroke-width="3"/>
+<g>
+<circle cx="100" cy="110" r="8" fill="#1971c2"/><text x="100" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="#1971c2">1G</text><text x="100" y="135" text-anchor="middle" font-size="11" fill="#495057">Analog voice</text><text x="100" y="150" text-anchor="middle" font-size="11" fill="#495057">1980s</text>
+<circle cx="220" cy="110" r="8" fill="#0ca678"/><text x="220" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="#0ca678">2G</text><text x="220" y="135" text-anchor="middle" font-size="11" fill="#495057">Digital voice, SMS</text><text x="220" y="150" text-anchor="middle" font-size="11" fill="#495057">1990s</text>
+<circle cx="340" cy="110" r="8" fill="#f08c00"/><text x="340" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="#f08c00">3G</text><text x="340" y="135" text-anchor="middle" font-size="11" fill="#495057">Mobile internet</text><text x="340" y="150" text-anchor="middle" font-size="11" fill="#495057">2000s</text>
+<circle cx="460" cy="110" r="8" fill="#7048e8"/><text x="460" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="#7048e8">4G / LTE</text><text x="460" y="135" text-anchor="middle" font-size="11" fill="#495057">High-speed data, apps</text><text x="460" y="150" text-anchor="middle" font-size="11" fill="#495057">2010s</text>
+<circle cx="580" cy="110" r="8" fill="#e03131"/><text x="580" y="90" text-anchor="middle" font-size="13" font-weight="bold" fill="#e03131">5G</text><text x="580" y="135" text-anchor="middle" font-size="11" fill="#495057">Ultra-low latency, IoT</text><text x="580" y="150" text-anchor="middle" font-size="11" fill="#495057">2020s</text>
+</g>
+<text x="340" y="195" text-anchor="middle" font-size="12" fill="#868e96">Android was born in the 3G era (2008) and matured through the 4G/5G smartphone boom</text>
+</svg>

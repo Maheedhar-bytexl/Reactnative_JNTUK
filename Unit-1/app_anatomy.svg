@@ -1,0 +1,33 @@
+<svg width="680" height="300" viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+<rect width="680" height="300" fill="#ffffff"/>
+<text x="340" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e1e1e">Anatomy of an Android Application</text>
+<rect x="60" y="50" width="560" height="40" rx="8" fill="#fff5f5" stroke="#e03131" stroke-width="1"/>
+<text x="340" y="75" text-anchor="middle" font-size="15" font-weight="bold" fill="#e03131">AndroidManifest.xml (declares every component below)</text>
+<g>
+<rect x="60" y="120" width="130" height="90" rx="8" fill="#e7f5ff" stroke="#1971c2" stroke-width="1"/>
+<text x="125" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="#1971c2">Activity</text>
+<text x="125" y="170" text-anchor="middle" font-size="11" fill="#1971c2">One screen</text>
+<text x="125" y="186" text-anchor="middle" font-size="11" fill="#1971c2">e.g. HomeActivity</text>
+
+<rect x="205" y="120" width="130" height="90" rx="8" fill="#fff9db" stroke="#f08c00" stroke-width="1"/>
+<text x="270" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="#f08c00">Service</text>
+<text x="270" y="170" text-anchor="middle" font-size="11" fill="#f08c00">Background task</text>
+<text x="270" y="186" text-anchor="middle" font-size="11" fill="#f08c00">no UI</text>
+
+<rect x="350" y="120" width="150" height="90" rx="8" fill="#f3f0ff" stroke="#7048e8" stroke-width="1"/>
+<text x="425" y="145" text-anchor="middle" font-size="13" font-weight="bold" fill="#7048e8">Broadcast Receiver</text>
+<text x="425" y="170" text-anchor="middle" font-size="11" fill="#7048e8">Responds to system</text>
+<text x="425" y="186" text-anchor="middle" font-size="11" fill="#7048e8">events (e.g. alarms)</text>
+
+<rect x="515" y="120" width="105" height="90" rx="8" fill="#ebfbee" stroke="#2f9e44" stroke-width="1"/>
+<text x="567" y="145" text-anchor="middle" font-size="12" font-weight="bold" fill="#2f9e44">Content</text>
+<text x="567" y="160" text-anchor="middle" font-size="12" font-weight="bold" fill="#2f9e44">Provider</text>
+<text x="567" y="180" text-anchor="middle" font-size="11" fill="#2f9e44">Shares data</text>
+</g>
+<line x1="125" y1="90" x2="125" y2="118" stroke="#495057" stroke-width="1.5"/>
+<line x1="270" y1="90" x2="270" y2="118" stroke="#495057" stroke-width="1.5"/>
+<line x1="425" y1="90" x2="425" y2="118" stroke="#495057" stroke-width="1.5"/>
+<line x1="567" y1="90" x2="567" y2="118" stroke="#495057" stroke-width="1.5"/>
+<text x="340" y="250" text-anchor="middle" font-size="12" fill="#868e96">In CampusConnect: HomeActivity (Activity), ReminderService (Service),</text>
+<text x="340" y="268" text-anchor="middle" font-size="12" fill="#868e96">AlarmReceiver (Broadcast Receiver), AttendanceProvider (Content Provider)</text>
+</svg>

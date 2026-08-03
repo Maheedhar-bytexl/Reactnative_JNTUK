@@ -1,0 +1,25 @@
+<svg width="680" height="320" viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+<rect width="680" height="320" fill="#ffffff"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#495057" stroke-width="1.5"/></marker></defs>
+<text x="340" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e1e1e">Explicit vs Implicit Intent</text>
+
+<text x="170" y="55" text-anchor="middle" font-size="14" font-weight="bold" fill="#1971c2">Explicit Intent</text>
+<rect x="60" y="70" width="150" height="50" rx="8" fill="#e7f5ff" stroke="#1971c2"/>
+<text x="135" y="90" text-anchor="middle" font-size="12" font-weight="bold" fill="#1971c2">HomeActivity</text>
+<text x="135" y="106" text-anchor="middle" font-size="10" fill="#1971c2">(your app)</text>
+<line x1="210" y1="95" x2="270" y2="95" stroke="#1971c2" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="270" y="70" width="160" height="50" rx="8" fill="#e7f5ff" stroke="#1971c2"/>
+<text x="350" y="90" text-anchor="middle" font-size="12" font-weight="bold" fill="#1971c2">TimetableActivity</text>
+<text x="350" y="106" text-anchor="middle" font-size="10" fill="#1971c2">(named class, same app)</text>
+<text x="255" y="140" text-anchor="middle" font-size="11" fill="#495057">new Intent(this, TimetableActivity.class)</text>
+
+<text x="170" y="185" text-anchor="middle" font-size="14" font-weight="bold" fill="#c2255c">Implicit Intent</text>
+<rect x="60" y="200" width="150" height="50" rx="8" fill="#fff0f6" stroke="#c2255c"/>
+<text x="135" y="220" text-anchor="middle" font-size="12" font-weight="bold" fill="#c2255c">LostFoundActivity</text>
+<text x="135" y="236" text-anchor="middle" font-size="10" fill="#c2255c">ACTION_SEND</text>
+<line x1="210" y1="225" x2="270" y2="225" stroke="#c2255c" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="270" y="200" width="350" height="50" rx="8" fill="#fff0f6" stroke="#c2255c"/>
+<text x="445" y="220" text-anchor="middle" font-size="12" font-weight="bold" fill="#c2255c">Android OS resolves best-matching app</text>
+<text x="445" y="236" text-anchor="middle" font-size="10" fill="#c2255c">WhatsApp / SMS / Email / Gmail — user picks</text>
+<text x="255" y="270" text-anchor="middle" font-size="11" fill="#495057">no target class named — Android decides at runtime</text>
+</svg>
