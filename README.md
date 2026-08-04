@@ -78,7 +78,7 @@ Understand how Android applications work internally.
 
 📖 **Open Unit**
 
-➡️ [Unit 2 - Android Components](./Unit-2/README.md)
+➡️ [Unit 2 - Android Components](./Unit-2/Unit2_Android_Anatomy.md)
 
 ---
 
